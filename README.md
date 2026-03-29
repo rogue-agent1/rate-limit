@@ -1,7 +1,17 @@
-Token bucket, sliding window, and leaky bucket rate limiters
+# rate_limit
+
+Rate limiter (token bucket and sliding window)
+
+Single-file, zero-dependency Python CLI tool.
+
+## Usage
 
 ```bash
-python3 rate_limit.py test
+python rate_limit.py --help
 ```
 
-Zero deps. Python 3.8+.
+## Test
+
+```bash
+python -c "import rate_limit; rate_limit.test()"
+```
